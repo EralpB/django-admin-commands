@@ -6,8 +6,8 @@ README = open(os.path.join(here, 'README.rst')).read()
 
 setup(
     name='django-admin-commands',
-    version='0.9',
-    packages=['admincommands'],
+    version='0.92',
+    packages=['admincommands', 'admincommands.migrations'],
     description='Allow running Django management commands at the ease of your admin panel',
     long_description=README,
     author='Eralp Bayraktar',
